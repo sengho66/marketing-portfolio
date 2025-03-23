@@ -12,6 +12,9 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  output: "export",
+
+  basePath: "/marketing-portfolio",
 };
 
 export default nextConfig;

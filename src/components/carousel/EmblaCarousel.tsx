@@ -1,5 +1,4 @@
 import { EmblaOptionsType } from "embla-carousel";
-import { useDotButton } from "./EmblaCarouselDotButton";
 import {
   PrevButton,
   NextButton,
