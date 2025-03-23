@@ -7,7 +7,6 @@ import "./embla.css";
 import { ALL, Value } from "@/const";
 
 const OPTIONS: EmblaOptionsType = { align: "start" };
-const SLIDE_COUNT = 6;
 
 export const Carou = ({ current }: { current: Value }) => {
   const content = ALL[`${current}`];
